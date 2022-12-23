@@ -4,10 +4,10 @@ LABEL author="Ahmed khiari" maintainer="ahmedpvz@gmail.com"
 
 RUN apt update \
     && apt upgrade -y \
-	&& apt install wget \
-	&& apt install unzip \
-	&& apt install sed \
-	&& apt install jq \
+	&& apt install -y wget \
+	&& apt install -y unzip \
+	&& apt install -y sed \
+	&& apt install -y jq \
     && apt install -y lib32gcc1 lib32stdc++6 unzip curl iproute2 libgdiplus jq \
     && curl -sL https://deb.nodesource.com/setup_6.x | bash - \
     && apt install -y nodejs npm \
