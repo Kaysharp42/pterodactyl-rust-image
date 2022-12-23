@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-LABEL author="Josh King" maintainer="josh.st.king@gmail.com"
+LABEL author="Ahmed khiari" maintainer="ahmedpvz@gmail.com"
 
 RUN apt update \
     && apt upgrade -y \
